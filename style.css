@@ -1,0 +1,167 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    position: absolute;
+    top: 0;
+    justify-content: center;
+    background-color: rgb(234, 242, 249);
+    font-size: 14px;
+    align-items: center;
+    box-shadow: 2px 4px 2px 1px rgba(83, 82, 82, 0.2);
+}
+
+header .header {
+    flex-direction: row;
+    display: flex;
+    height: 40px;
+    width: 1200px;
+    justify-content: space-between;
+}
+
+header .header--container {
+    display: flex;
+    flex-direction: row;
+}
+
+header img {
+    margin-left: 100px;
+}
+
+header nav {
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+.section--1 .area--1 img{
+    width: 100%;
+    height: 450px;
+}
+
+.section--1 .linha {
+    height: 3px;
+    background-color: rgb(131, 197, 254);
+}
+
+.section--1 .cont {
+    height: 200px;
+    width: 400px;
+    background-color: rgba(128, 182, 233, 0.807);
+}
+
+.section--2 h1{
+    width: 316px;
+    height: 78px;
+    margin-left: 50px;
+    color: #48CBF5;
+}
+
+.section--2 p {
+    margin-left: 50px;
+    margin-right: 50px;
+    align-items: center;
+    text-align: justify;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+}
+
+.section--3 h2 {
+    width: 316px;
+    height: 78px;
+    margin-left: 50px;
+    color: #48CBF5;
+}
+
+.section--3 {
+    background-color: rgb(183, 190, 197);
+}
+
+.area--1 {
+    background-color: #FFF;
+    width: 250px;
+}
+
+footer {
+    background-color: rgb(110, 107, 107);
+}
+
+footer .title {
+    color: #000;
+}
+
+footer .footer--icons {
+
+}
+
+footer .footer--container {
+    background-color: rgb(33, 32, 32);
+    height: 30px;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif, 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .footer--container p {
+    margin: 40px;
+    display: flex;
+}
+
+footer .title {
+    margin: 25px;
+}
+
+
+footer .footer-icons {
+}
+
+.area--5 {
+    background-color: aqua;
+}
+
+.area--5 .title {
+}
+
+.news {
+    background-image: linear-gradient( to right, rgb(161, 228, 134), rgb(96, 205, 227) );
+}
+
+.news h4 {
+    font-size: 18px;
+    color: #000;
+    margin-left: 80px;
+    margin-top: ;
+}
+
+.news .cont--1 {
+    font-size: 12px;
+}
+
+.news .cont--2 {
+    font-size: 10px;
+}
+
+.news button {
+    border-radius: 10px;
+    border: #FFF;
+    margin: 10PX;
+}
+
+.news h5 {
+    font-size: 12px;
+    display: flex;
+}
+
+input {
+    border-radius: 10px;
+    display: flex;
+}
